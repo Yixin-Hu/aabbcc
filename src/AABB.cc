@@ -405,7 +405,7 @@ namespace aabb
         // AABB size in each dimension.
 
 //        double size[dimension];
-        size = new double[dimension];
+        double *size = new double[dimension];
 
         // Compute the AABB limits.
         for (unsigned int i=0;i<dimension;i++)
@@ -554,7 +554,7 @@ namespace aabb
 
         // AABB size in each dimension.
 //        double size[dimension];
-        size = new double[dimension];
+        double *size = new double[dimension];
 
         // Compute the AABB limits.
         for (unsigned int i=0;i<dimension;i++)
