@@ -13,3 +13,4 @@ python/trajectory.xyz
 .check_python
 trajectory.xyz
 *.dSYM
+.DS_Store
